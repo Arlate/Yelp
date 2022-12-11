@@ -146,6 +146,7 @@ passport.serializeUser(User.serializeUser());
 passport.deserializeUser(User.deserializeUser());
 
 // mongoose.connect('mongodb://127.0.0.1:27017/yelp-camp', { useNewUrlParser: true, useUnifiedTopology: true });
+mongoose.set('strictQuery', false);
 mongoose.connect(dbUrl, { useNewUrlParser: true, useUnifiedTopology: true });
 
 const db = mongoose.connection;

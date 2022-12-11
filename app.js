@@ -35,7 +35,7 @@ import { catchAsync } from "./utils/catchAsync.js";
 
 
 const app = express();
-app.listen(80, () => console.log('LISTENING ON 3000'))
+app.listen(8080, () => console.log('LISTENING ON 3000'))
 app.set('views', path.join(__dirname, 'views'));
 app.engine('ejs', ejsmate);
 app.set('view engine', 'ejs');

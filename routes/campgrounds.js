@@ -9,8 +9,11 @@ import multer from "multer";
 import { Cloudinary, storage } from "../cloudinary/index.js";
 const upload = multer({ storage });
 
+import * as dotenv from 'dotenv'
+dotenv.config()
+
 import mbxGeocoding from '@mapbox/mapbox-sdk/services/geocoding.js';
-const mapBoxToken = '';
+const mapBoxToken = process.env.MAP_TOKEN;
 const geocoder = mbxGeocoding({ accessToken: mapBoxToken });
 
 const router = Router();

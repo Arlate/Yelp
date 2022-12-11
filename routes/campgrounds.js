@@ -14,7 +14,6 @@ dotenv.config()
 
 import mbxGeocoding from '@mapbox/mapbox-sdk/services/geocoding.js';
 const mapBoxToken = process.env.MAP_TOKEN;
-console.log(mapBoxToken);
 const geocoder = mbxGeocoding({ accessToken: mapBoxToken });
 
 const router = Router();

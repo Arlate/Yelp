@@ -1,6 +1,3 @@
-
-import * as dotenv from 'dotenv'
-dotenv.config()
 mapboxgl.accessToken = process.env.MAP_TOKEN;
 const map = new mapboxgl.Map({
     container: 'map',

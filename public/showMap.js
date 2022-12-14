@@ -1,6 +1,6 @@
 // import * as dotenv from 'dotenv'
 // dotenv.config()
-mapboxgl.accessToken = '';
+mapboxgl.accessToken = 'pk.eyJ1IjoiYXJsYXQiLCJhIjoiY2xia3didDl3MDFxaDNwbjExNHgwb3pxdiJ9.bc760YXBWM9MgOdrBkwcAw';
 const map = new mapboxgl.Map({
     container: 'map', // container ID
     style: 'mapbox://styles/mapbox/outdoors-v10', // style URL

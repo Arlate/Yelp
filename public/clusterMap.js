@@ -1,7 +1,7 @@
 // import * as dotenv from 'dotenv'
 // dotenv.config()
 
-mapboxgl.accessToken = '';
+mapboxgl.accessToken = 'pk.eyJ1IjoiYXJsYXQiLCJhIjoiY2xia3didDl3MDFxaDNwbjExNHgwb3pxdiJ9.bc760YXBWM9MgOdrBkwcAw';
 const map = new mapboxgl.Map({
     container: 'map',
     // Choose from Mapbox's core styles, or make your own style with Mapbox Studio
